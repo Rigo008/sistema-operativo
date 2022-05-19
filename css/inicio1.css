@@ -1,0 +1,284 @@
+.contenedor {
+
+
+
+}
+
+.menu {
+    width: 60rem;
+    height: 50rem;
+    background-color: rgb(230, 230, 230) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    
+    margin-top: -54.3em;
+    
+}
+
+
+
+.simbololineas {
+    width: 2.3rem;
+    height: 2.8rem;
+   
+   margin: 2rem 2rem;
+    
+    
+}
+
+.simbololineasC {
+ 
+  position: relative;
+    margin-left: -1rem;
+    top: -3rem ;
+}
+
+
+.simbolopersona {
+    width: 1.3em;
+    height: 1.3rem;
+    margin-left: 2.2rem;
+    position: absolute;
+   top: 35rem;
+    
+    
+}
+
+.simbolopersonaC {
+margin-left: 5rem;
+position: relative;
+position: absolute;
+top: 35rem;
+    
+}
+
+
+.simbolodocumento{
+    width: 1.5em;
+    height: 1.5rem;
+    margin-left: 2rem;
+    position: absolute;
+   top: 38rem;
+   
+}
+
+.simbolodocumentoC{
+    margin-left: 5rem;
+    position: absolute;
+   top: 38rem;
+
+}
+
+
+
+
+.simboloimagen{
+    width: 1.7rem;
+    height: 1.8rem;
+
+    margin-left: 1.8rem;
+    position: absolute;
+   top: 41rem;
+}
+
+.simboloimagenC{
+   
+    margin-left: 5rem;
+    position: absolute;
+   top: 41rem;
+       
+}
+
+
+
+
+.simboloconfiguracion{
+    width: 1.3em;
+    height: 1.3rem;
+  margin-left: 2rem;
+   position: absolute;
+   top: 44rem;
+}
+
+.simboloconfiguracionC{
+    margin-left: 5rem;
+    position: absolute;
+    top: 44rem;
+
+}
+
+
+
+
+.simboloinicio{
+    width: 1.5em;
+    height: 1.5rem;
+    position: absolute;
+    margin-left: 1.8rem;
+    top: 47rem;
+}
+
+.simboloinicioC{
+    
+
+margin-left: 5rem;
+position: absolute;
+top: 47rem;
+    
+}
+
+.apps {
+   width: 30rem; 
+   height: 40rem;
+   position: absolute;
+   right: 0;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 2rem;
+
+}
+
+.apps div {
+    width: 8.2rem ;
+    height: 8.2rem;
+    background-color: #f2f2f2d2;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+flex-wrap: nowrap;
+}
+
+.apps h2 {
+
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.cuadro {
+   margin-top: 1.5rem; 
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+.apps div span {
+text-align: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.app1 {
+
+    width:3.3rem ;
+    height:3.3rem ;
+    
+}
+
+
+
+.app2 {
+
+    width: 3.5rem ;
+    height: 3.5rem ;
+    margin-top: 1rem;
+}
+.foto {
+    margin-left: -3.5rem;
+}
+
+.app3 {
+    width:100% ;
+    height:100% ;
+}
+
+.app4 {
+
+    width: 2rem ;
+    height: 2rem ;
+}
+
+
+
+.app5 {
+
+    width: 8rem ;
+    height: 8rem ;
+
+
+}
+
+
+.app6 {
+
+    width: 100% ;
+    height: 100% ;
+
+
+}
+
+
+.app7 {
+
+    width: 2rem ;
+    height: 2rem ;
+
+
+}
+
+
+.app8 {
+
+    width: 2rem ;
+    height: 2rem ;
+
+
+}
+
+
+
+.app9 {
+
+    width: 100% ;
+    height: 100% ;
+
+
+}
+
+.edge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cuatro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tijera {
+    margin-left: -1.2rem;
+    text-align: left;
+    
+   
+}
