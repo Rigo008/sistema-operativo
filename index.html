@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/inicio1.css">
-
+<link rel="stylesheet" href="css/archivos.css">
 
 
 </head>
@@ -35,7 +35,7 @@
 <div class="caja">
     <div class="barra">
         <div class="box">
-<img src="https://cdn-icons-png.flaticon.com/512/71/71821.png" class="inicio">
+<img id="ico_menu" src="https://cdn-icons-png.flaticon.com/512/71/71821.png" class="inicio">
         <div class="container-1">
             <span class="icon"><i class="fa fa-search"></i></span>
             <input type="text" id="search"  placeholder="Escribe aquí para buscar" />
@@ -56,7 +56,7 @@
 
 <h3 class="no2">Rigo2022</h3>
 
-<div class="contenedor">
+<div id="contenedor" class="contenedor">
     <div class="menu">
 <div class="inicio1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Symbol_code_ww_45.svg/1024px-Symbol_code_ww_45.svg.png" class="simbololineas"> <span class="simbololineasC">INICIO</span></div>
 <div class="inicio1"><img src="https://icons-for-free.com/download-icon-man+person+profile+user+worker+icon-1320190557331309792_512.png" class="simbolopersona"> <span class="simbolopersonaC">bcastellanos0812@gmail.com</span></div>
@@ -64,6 +64,7 @@
 <div class="inicio1"><img src="data:image/png;base64,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" class="simboloimagen"> <span class="simboloimagenC">Imágenes</span></div>
 <div class="inicio1"><img src="https://cdn-icons-png.flaticon.com/512/70/70314.png" class="simboloconfiguracion"> <span class="simboloconfiguracionC">Configuración</span></div>
 <div class="inicio1"><img src="https://www.shareicon.net/data/2015/11/02/665750_energy_512x512.png" class="simboloinicio">   <span class="simboloinicioC">Inicio/apagado</span></div>
+<div class="inicio1"><img src="https://pngimage.net/wp-content/uploads/2018/06/linea-recta-blanca-png.png" class="divisiong"></div>
 
 <div class="apps">
 <h2>Productividad</h2>
@@ -87,16 +88,23 @@
 <div class="cuadro"> <img src="https://pbs.twimg.com/profile_images/1400483947319115776/bTfxhuOK_400x400.jpg" class="app9"></div>
 
 </div>
-
-
 </div>
-
 </div>
 
 
 
+<div class="archivos">
+    <div class="archivoesquina"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/File-Explorer-fluent-icon.png" class="archivoesquina1"></div>
+    <div class="linea1"><img src="https://static.thenounproject.com/png/657412-200.png" class="linea_1"></div>
+    <div class="propiedades"> <img src="https://cdn-icons-png.flaticon.com/512/36/36216.png" class="propiedades_2" ></div>
+    <div class="nuevacarpeta"> <img src="https://www.gb-advisors.com/wp-content/uploads/2020/03/cuadro-gris-gb-advisors.png" class="nuevacarpeta1"></div>
+    <div class="personalizar"> <img src="https://cdn-icons-png.flaticon.com/512/54/54883.png" class="personalizar2"></div>
+    <div class="linea2"><img src="https://static.thenounproject.com/png/657412-200.png" class="linea_2"></div>
+    
+    <div></div>
 
+</div>
 
-
+<script src="./js/main.js"> </script>
 </body>
 </html>

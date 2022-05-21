@@ -1,11 +1,17 @@
 .contenedor {
-
-
+display: none;
 
 }
 
+.activar {
+    display: block;
+    
+}
+
+
+
 .menu {
-    width: 60rem;
+    width: 55rem;
     height: 50rem;
     background-color: rgb(230, 230, 230) ;
     display: flex;
@@ -281,4 +287,10 @@ text-align: center;
     text-align: left;
     
    
+}
+
+.divisiong {
+    width: 40rem;
+    height: 51.5rem;
+    margin-top: -8.1rem;
 }

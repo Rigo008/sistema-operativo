@@ -1,0 +1,86 @@
+.archivos {
+    
+
+    width: 85rem;
+    height: 45rem;
+    background-color: rgb(255, 255, 255) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    margin-top: -54.3em;
+    margin-left: 70rem;
+   top: 60rem;
+}
+
+.archivoesquina {
+margin-top: 0.5rem;
+margin-left: 0.5rem;
+}
+
+.archivoesquina1 {
+width: 1.7rem;
+height: 1.7rem;
+
+}
+
+.linea1 {
+    margin-top: -1.6rem;
+margin-left: 2.5rem;
+
+}
+
+.linea_1 {
+    width: -2rem;
+    height: 1.1rem;
+}
+
+.propiedades {
+    margin-top: -1.6rem;
+margin-left: 3.8rem;
+
+}
+
+.propiedades_2 {
+    width: 1.5rem;
+    height: 1.5rem;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(214, 210, 210));
+}
+
+.nuevacarpeta {
+    margin-top: -1.8rem;
+    margin-left: 6rem;
+
+}
+
+.nuevacarpeta1 {
+    width: 1.2rem;
+    height: 1.5rem;
+
+}
+
+.personalizar {
+    margin-top: -1.8rem;
+    margin-left: 8rem;
+    animation: rotation 8s infinite linear;
+}
+
+.personalizar2 {
+    width: 0.6rem;
+    height: 0.6rem;
+    animation: rotation 8s infinite linear;
+
+}
+
+.linea2 {
+    margin-top: -1.2rem;
+margin-left: 9rem;
+    
+}
+
+.linea_2 {
+    width: -2rem;
+    height: 1.1rem;
+    
+
+}
