@@ -24,6 +24,23 @@
     margin-left: 1.4rem;
     position: absolute;
 }
+.inicio2 {
+    width: 2.1rem;
+    height: 1.8rem;
+    margin-top: 1rem;
+    margin-left: 1.4rem;
+    position: absolute;
+    display: none;
+
+}
+
+.activar {
+display: block;
+}
+
+.desactivar {
+display: none;
+}
 
 .lupa {
     width: 1.6rem;
